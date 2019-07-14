@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EligibilityPRojectPracticeJson
+namespace EligibilityProjectPracticeJson
 {
     class Applicant
     {
@@ -18,5 +18,9 @@ namespace EligibilityPRojectPracticeJson
         public string ZipCode { get; set; }
 
         public double PovertyRate { get; set; }
+
+        public static List<Applicant> _applicantList { get; set; }
+
+
     }
 }
